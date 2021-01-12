@@ -1,0 +1,116 @@
+(define-module (guix_manifest))
+
+(use-modules (guix profiles)
+             (gnu packages)
+             (ice-9 match)
+             (srfi srfi-1))
+
+(define %gui-only
+  (list "arandr"
+        "calibre"
+        "evince"
+        "feh"
+        "font-dejavu"
+        "font-opendyslexic"
+        "harfbuzz"
+        "hicolor-icon-theme"
+        "klavaro"
+        "obs"))
+
+(define %emacs
+  (list "emacs-geiser"
+        "emacs-no-x-toolkit"
+        "emacs-pdf-tools"
+        "emacs-xelb"))
+
+(define %guix-system-apps
+  (list "guile"
+        "guile-colorized"
+        "guile-readline"
+        "guile-colorized"
+        "guile-hall"
+        "guile-readline"
+        "mcron"
+        "shepherd-guile-latest"))
+
+(define %libs
+  (list "boost"
+        "libgccjit"
+        "libressl"
+        "libvterm"
+        "libx11"
+        "libxcb"
+        "libxft"
+        "mariadb-connector-c" ))
+
+(define %cli-apps
+  (list "ansible"
+        "aspell"
+        "aspell-dict-en"
+        "borg"
+        "clisp"
+        "cmake"
+        "conda"
+        "dos2unix"
+        "fortune-mod"
+        "gcc-toolchain"
+        "ghc"
+        "git"
+        "glibc-locales"
+        "glibc-utf8-locales"
+        "ghc-haskell-src-exts"
+        "graphviz"
+        "inxi"
+        "isync"
+        "jq"
+        "lcov"
+        "lzip"
+        "mosh"
+        "mpv"
+        "ncdu"
+        "nethogs"
+        "newsboat"
+        "nmap"
+        "notmuch"
+        "nss-certs"))
+
+"p7zip"
+"perf"
+"plantuml"
+"poppler"
+"purescript"
+"python-mypy"
+"python-pip"
+"python-pylint"
+"python-redis"
+"racket"
+"readline"
+"recutils"
+"redis"
+"rust"
+"rust"
+"screen"
+"shellcheck"
+"shepherd"
+"simple-scan"
+"simplescreenrecorder"
+"sox"
+"strace"
+"surf"
+"texlive-beamer"
+"the-silver-searcher"
+"thunar"
+"tmux"
+"trash-cli"
+"util-linux-with-udev"
+"vlc"
+"w3m"
+"wireshark"
+"xbindkeys"
+"xcb-proto"
+"xdot"
+"xfce4-screenshooter"
+"xournal"
+"youtube-dl"
+"zathura"
+"zsh"
