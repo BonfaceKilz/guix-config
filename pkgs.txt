@@ -1,10 +1,6 @@
 acpi
-adobe-source-han-sans-cn-fonts
-aerc
-alloy
 alsa-plugins
 alsa-utils
-amass
 android-file-transfer
 android-tools
 android-udev
@@ -14,12 +10,6 @@ assimp
 audacity
 autoconf
 autoconf-archive
-automake
-autopep8
-avr-gcc
-avr-libc
-avrdude
-axel
 bandwhich-bin
 bash
 binutils
